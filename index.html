@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<head>
+    <title>
+        Payment
+    </title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container wrapper">
+        <div class="row cart-head">
+            <div class="container">
+                <div class="row">
+                    <p></p>
+                </div>
+                <div class="row">
+                    <div style="display: table; margin: auto;">
+                        <span class="step step_complete"> <a href="#" class="check-bc">Cart</a> <span
+                                class="step_line step_complete"> </span> <span class="step_line backline"> </span>
+                        </span>
+                        <span class="step step_complete"> <a href="#" class="check-bc">Checkout</a> <span
+                                class="step_line "> </span> <span class="step_line step_complete"> </span> </span>
+                        <span class="step_thankyou check-bc step_complete">Thank you</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="row cart-body">
+            <form class="form-horizontal" method="post" action="">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6">
+                    <!--REVIEW ORDER-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            Review Order <div class="pull-right"><small><a class="afix-1" href="#">Edit Cart</a></small>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-sm-3 col-xs-3">
+                                    <img class="img-responsive"
+                                        src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/7f166335-08d6-467e-bb19-bb85d6a7b163/air-jordan-1j-balvin-release-date.jpg" />
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                    <div class="col-xs-12">Nike Jordan</div>
+                                    <div class="col-xs-12"><small>Quantity:<span>1</span></small></div>
+                                </div>
+                                <div class="col-sm-3 col-xs-3 text-right">
+                                    <h6><span>$</span>25.00</h6>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <hr />
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-3 col-xs-3">
+                                    <img class="img-responsive"
+                                        src="https://scene7.zumiez.com/is/image/zumiez/cat_max/Nike-Essential-camiseta-negra-_329801.jpg" />
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                    <div class="col-xs-12">Camisa Nike</div>
+                                    <div class="col-xs-12"><small>Quantity:<span>1</span></small></div>
+                                </div>
+                                <div class="col-sm-3 col-xs-3 text-right">
+                                    <h6><span>$</span>25.00</h6>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <hr />
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-3 col-xs-3">
+                                    <img class="img-responsive"
+                                        src="data:image/jpeg;base64,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" />
+                                </div>
+                                <div class="col-sm-6 col-xs-6">
+                                    <div class="col-xs-12">Anteojos Facheritos</div>
+                                    <div class="col-xs-12"><small>Quantity:<span>2</span></small></div>
+                                </div>
+                                <div class="col-sm-3 col-xs-3 text-right">
+                                    <h6><span>$</span>50.00</h6>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <hr />
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <strong>Subtotal</strong>
+                                    <div class="pull-right"><span>$</span><span>200.00</span></div>
+                                </div>
+                                <div class="col-xs-12">
+                                    <small>Shipping</small>
+                                    <div class="pull-right"><span>-</span></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <hr />
+                            </div>
+                            <div class="form-group">
+                                <div class="col-xs-12">
+                                    <strong>Order Total</strong>
+                                    <div class="pull-right"><span>$</span><span>150.00</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--REVIEW ORDER END-->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
+                    <!--SHIPPING METHOD-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Address</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <h4>Shipping Address</h4>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Country:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="country" value="" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-6 col-xs-12">
+                                    <strong>First Name:</strong>
+                                    <input type="text" name="first_name" class="form-control" value="" required />
+                                </div>
+                                <div class="span1"></div>
+                                <div class="col-md-6 col-xs-12">
+                                    <strong>Last Name:</strong>
+                                    <input type="text" name="last_name" class="form-control" value="" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Address:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="address" class="form-control" value="" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>City:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="city" class="form-control" value="" required />
+                                </div>
+                            </div>
+
+
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    State
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">San Jose</a>
+                                    <a class="dropdown-item" href="#">Alajuela</a>
+                                    <a class="dropdown-item" href="#">Alajuela</a>
+                                    <a class="dropdown-item" href="#">Heredia</a>
+                                    <a class="dropdown-item" href="#">Guanacaste</a>
+                                    <a class="dropdown-item" href="#">Puntarenas</a>
+                                    <a class="dropdown-item" href="#">Limon</a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Zip / Postal Code:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" name="zip_code" class="form-control" value="" required />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Phone Number:</strong></div>
+                                <div class="col-md-12"><input type="text" name="phone_number" class="form-control"
+                                        value="" required /></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Email Address:</strong></div>
+                                <div class="col-md-12"><input type="text" name="email_address" class="form-control"
+                                        value="" placeholder="@gmail" required /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--SHIPPING METHOD END-->
+                    <!--CREDIT CART PAYMENT-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading"><span><i class="glyphicon glyphicon-lock"></i></span> Secure Payment
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Card Type:</strong></div>
+                                <div class="col-md-12">
+                                    <select id="CreditCardType" name="CreditCardType" class="form-control">
+                                        <option value="5">Visa</option>
+                                        <option value="6">MasterCard</option>
+                                        <option value="7">American Express</option>
+                                        <option value="8">Discover</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Credit Card Number:</strong></div>
+                                <div class="col-md-12"><input type="text" class="form-control" name="car_number"
+                                        value="" /></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Card CVV:</strong></div>
+                                <div class="col-md-12"><input type="text" class="form-control" name="car_code"
+                                        value="" /></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <strong>Expiration Date</strong>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <select class="form-control" name="">
+                                        <option value="">Month</option>
+                                        <option value="01">01</option>
+                                        <option value="02">02</option>
+                                        <option value="03">03</option>
+                                        <option value="04">04</option>
+                                        <option value="05">05</option>
+                                        <option value="06">06</option>
+                                        <option value="07">07</option>
+                                        <option value="08">08</option>
+                                        <option value="09">09</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                    <select class="form-control" name="">
+                                        <option value="">Year</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                        <option value="2025">2025</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <span>Pay secure using your credit card.</span>
+                                </div>
+
+                                <div class="row">
+
+
+                                    <div class="col-md-12">
+                                        <ul class="cards">
+                                            <div class="row">
+                                                <div class="justify-content-righ mt-4">
+                                                    <input type="radio" name="select" value="no-especifica" />
+                                                    <li class="visa hand">Visa </li>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-4 align-self-end mt-4">
+                                                    <input type="radio" name="select" value="no-especifica" />
+                                                    <li class="mastercard hand">MasterCard</li>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-4 align-self-end mt-4">
+                                                    <input type="radio" name="select" value="no-especifica" />
+                                                    <li class="amex hand">Amex</li>
+                                                </div>
+                                            </div>
+                                        </ul>
+
+                                    </div>
+
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="form-group">
+
+                                    <div class="btn btn-primary btn-lg">
+                                        <button type="submit" class="btn btn-primary btn-submit-fix  ">Enviar</button>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="align-self-start">
+                                    <small id="emailHelp" class="form-text text-muted "> Add ANY NOTES.</small>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <textarea placeholder="Notes" rows="5"></textarea>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!--CREDIT CART PAYMENT END-->
+                </div>
+
+            </form>
+        </div>
+        <div class="row cart-footer">
+
+        </div>
+    </div>
+</body>
+
+
+
+
+</html>
